@@ -1,7 +1,12 @@
 package praktek03;
 public class SarungTangan {
     String merk;
-    String Warna;
+    String warna;
     double harga;
     
+    void cetakInfo(){
+        System.out.println("Merk \t: "+merk+"\n"+
+                "Warna \t: "+warna+"\n"+
+                "Harga \t: "+harga);
+    }
 }
