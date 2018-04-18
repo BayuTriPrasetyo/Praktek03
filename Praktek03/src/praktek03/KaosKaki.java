@@ -4,6 +4,14 @@ public class KaosKaki extends SarungTangan{
     
     void throttle(){
         System.out.println("Kaos Kaki Bola");
-    
 }
+
+    public String getJenisKaosKaki() {
+        return jenisKaosKaki;
+    }
+
+    public void setJenisKaosKaki(String jenisKaosKaki) {
+        this.jenisKaosKaki = jenisKaosKaki;
+    }
+    
 }
